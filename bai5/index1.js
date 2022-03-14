@@ -1,0 +1,10 @@
+let r = prompt("Nhập bán kính hình tròn r =");
+const PI = 3.14;
+let d = r*2;
+document.write("Đường kính hình tròn d = " + d);
+document.write("</br>");
+let C = 2*r*PI;
+document.write("Chu vi hình tròn C = " + C);
+document.write("</br>");
+let S = r*r*PI;
+document.write("Diện tích hình tròn S = " + S);
